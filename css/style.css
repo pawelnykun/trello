@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+}
+
+.board {
+	text-align: center;
+}
+
+.column-container {
+	min-height: 500px;
+}
+
+.column {
+	display: inline-block;
+	border-radius: 5px;
+	border: 2px solid black;
+	min-width: 200px;
+	min-height: 500px;
+	margin: 5px;
+	position: relative;
+}
+
+ul.column-card-list {
+	min-height: 50px;
+	list-style-type: none;
+	padding: 0;
+	margin: 5px;
+}
+
+ul.column-card-list li:active {
+	cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+ul.column-card-list li {
+	cursor: move;
+	cursor: grab;
+	cursor:-webkit-grab;
+	cursor:-moz-grab;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: #edb649;
+	margin: 5px;
+	min-height: 70px;
+	position: relative;
+}
+
+ul.column-card-list li p {
+	margin-top: 28px;
+}
+
+button {
+	height: 25px;
+	line-height: 25px;
+}
+
+button.btn-danger {
+	width: 25px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+button.btn-success {
+	padding: 0 8px;
+}
+
+button.btn-default {
+	padding: 0 8px;
+}
